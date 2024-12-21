@@ -9,7 +9,7 @@ const About = () => {
         <div className="px-6">
           <div className="pt-10">
             <h2 className="text-3xl md:text-5xl text-center md:text-left font-rubikMedium text-primary pt-4 pb-5">
-              About Usttttttt
+              About Us
             </h2>
             <p className="text-base text-gray-500 font-rubikRegular md:w-4/5">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio

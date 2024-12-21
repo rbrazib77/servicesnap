@@ -43,23 +43,23 @@
 
 
 
-::-webkit-scrollbar {
+.category::-webkit-scrollbar {
   width: 10px;
   height: 10px;
   cursor: pointer;
 }
-::-webkit-scrollbar-track {
+.category::-webkit-scrollbar-track {
   border-radius: 5px;
   background-color: #dfdfdf;
 }
-::-webkit-scrollbar-thumb {
+.category::-webkit-scrollbar-thumb {
   background: #ff3951;
   border-radius: 5px;
   margin: auto;
   cursor: pointer;
 }
 
-::-webkit-scrollbar-button {
+.category::-webkit-scrollbar-button {
   width: 0px;
 }
 

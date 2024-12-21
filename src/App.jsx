@@ -18,6 +18,7 @@ import PopularService from "./components/PopularService";
 import TeamDetails from "./pages/TeamDetails";
 import Team from "./components/Team";
 import Register from "./pages/Register";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 
 const router = createBrowserRouter(
@@ -34,6 +35,7 @@ const router = createBrowserRouter(
       <Route path="/team" element={<Team />} />
       <Route path="/team/:id" element={<TeamDetails />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/privacy" element={<PrivacyPolicy />} />
       
     </Route>
   )

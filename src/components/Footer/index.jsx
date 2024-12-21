@@ -14,32 +14,30 @@ const Footer = () => {
       <div className="px-6 mt-20">
         <div className="md:flex justify-between">
           <div className="">
-           <Link to="/">
-           <h3 className="text-primary  text-2xl font-rubikBold mb-2  md:mt-0 mt-2 uppercase cursor-pointer">
-              Servicesnap
-            </h3>
-           </Link>
-            <p className="text-gray-500 w-[300px]">
-              Servicesnap provides tailored business development solutions for
-              SMEs in Bangladesh, focusing on growth strategies, market
-              research, digital marketing, and sales optimization to enhance
-              market reach and boost revenue.
+            <Link to="/">
+              <h3 className="text-primary  text-3xl font-rubikBold mb-2  md:mt-0 mt-2 uppercase cursor-pointer">
+                Servicesnap
+              </h3>
+            </Link>
+            <p className="text-gray-500 w-[300px] text-lg font-rubikRegular mb-10 ">
+              Feel free to contact us for any questions or assistance. Our
+              support team is here to help you.
             </p>
             <SocialLink />
           </div>
           <div>
-            <h3 className="text-black text-xl font-rubikBold mb-2 md:mt-0 mt-2">
+            <h3 className="text-black text-2xl font-rubikBold mb-2 md:mt-0 mt-2">
               Quick Link
             </h3>
             <ListItem>
               <ItemName
-                className="text-lg font-rubikRegular text-gray-500"
+                className="text-lg font-rubikRegular text-gray-500 pb-2"
                 itemName="Home"
                 href="/"
               />
 
               <ItemName
-                className="text-lg font-rubikRegular text-gray-500"
+                className="text-lg font-rubikRegular text-gray-500 pb-2"
                 itemName="About"
                 href="/about"
               />
@@ -51,20 +49,20 @@ const Footer = () => {
             </ListItem>
           </div>
           <div>
-            <h3 className="text-black text-xl font-rubikBold mb-2 md:mt-0 mt-2">
+            <h3 className="text-black text-2xl font-rubikBold mb-2 md:mt-0 mt-2">
               Quick Link
             </h3>
             <ListItem>
               <ItemName
-                className="text-lg font-rubikRegular text-gray-500"
+                className="text-lg font-rubikRegular text-gray-500 pb-2"
                 itemName="FAQ's"
                 href="/"
               />
 
               <ItemName
-                className="text-lg font-rubikRegular text-gray-500"
-                itemName="Privacy Policy"
-                href="/about"
+                className="text-lg font-rubikRegular text-gray-500 pb-2"
+                itemName="প্রাইভেসি পলিসি"
+                href="/privacy"
               />
               <ItemName
                 className="text-lg font-rubikRegular text-gray-500"
@@ -74,15 +72,15 @@ const Footer = () => {
             </ListItem>
           </div>
           <div>
-            <h3 className="text-black text-xl font-rubikBold mb-2 md:mt-0 mt-2">
+            <h3 className="text-black text-2xl font-rubikBold mb-2 md:mt-0 mt-2">
               Contact Us
             </h3>
 
-            <div className="flex items-center gap-2 text-lg font-rubikRegular">
+            <div className="flex items-center gap-2 text-lg font-rubikRegular pb-2">
               <IoCallSharp className="text-[#6a7483]" />
               <span className="text-[#6a7483]">+88 01977-083357</span>
             </div>
-            <div className="flex items-center gap-2 text-lg font-rubikRegular">
+            <div className="flex items-center gap-2 text-lg font-rubikRegular pb-2">
               <MdOutlineEmail />
               <span className="text-[#6a7483]">suport@servicesnap.net</span>
             </div>
@@ -93,13 +91,11 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-10" />
-        <p className="text-center font-rubikRegular text-lg md:text-xl pb-10">
-          © 2025 all right reserved By
-          <span className="text-primary font-rubikMedium uppercase px-1">
+        <p className="text-center font-rubikRegular text-lg md:text-xl pb-10 text-gray-500">
+          Copyright © 2024  <span className="text-primary font-rubikMedium uppercase px-1">
             {" "}
             Servicesnap
-          </span>
-          Privacy Terms of Use
+          </span>.All right reserved
         </p>
       </div>
     </Container>

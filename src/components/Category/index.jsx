@@ -316,7 +316,7 @@ const Category = () => {
   return (
     <div className="mt-20">
       {/* Categories Row */}
-      <div className="flex justify-between gap-2 mt-4 pb-3 overflow-x-auto whitespace-nowrap !cursor-pointer">
+      <div className="flex justify-between gap-2 mt-4 pb-3 overflow-x-auto whitespace-nowrap !cursor-pointer category">
         {categories.map((category) => (
           <div
             key={category.id}
@@ -359,7 +359,7 @@ const Category = () => {
                   <div
                     key={index}
                     onClick={() => handleSubcategoryClick(subcategory)}
-                    className="rounded-2xl relative shadow-inner	 overflow-hidden px-4 pt-4  mb-8   category-bar"
+                    className="rounded-2xl relative shadow-inner	 overflow-hidden px-4 pt-4  mb-8 category-bar"
                   >
                     <h3 className="font-rubikRegular  md:text-xl text-[13px] pt-2 px-1 pb-4">
                       {subcategory.name}

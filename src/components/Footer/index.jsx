@@ -92,10 +92,11 @@ const Footer = () => {
         </div>
         <hr className="my-10" />
         <p className="text-center font-rubikRegular text-lg md:text-xl pb-10 text-gray-500">
-          Copyright © 2024  <span className="text-primary font-rubikMedium uppercase px-1">
-            {" "}
+          Copyright © 2024{" "}
+          <span className="text-primary font-rubikMedium uppercase px-1">
             Servicesnap
-          </span>.All right reserved
+          </span>
+          .All right reserved
         </p>
       </div>
     </Container>

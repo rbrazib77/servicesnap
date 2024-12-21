@@ -12,9 +12,11 @@ const ContactInfo = () => {
     <>
       <Container>
         <div className="px-6 mt-10 py-20">
-          <div className=" text-center">
-            <h2 className="text-black font-rubikBold text-4xl">Contact Info</h2>
-            <p className="md:w-[550px] m-auto text-base font-rubikRegular text-[#6a7483] pt-6">
+          <div className=" text-center mb-20">
+            <h2 className="text-black font-rubikBold text-6xl pt-6">
+              <span className="text-primary"> Get In Touch</span> With Us
+            </h2>
+            <p className="md:w-[550px] m-auto text-xl font-rubikRegular text-[#6a7483] pt-6">
               For more information Contact us!!!
             </p>
           </div>
@@ -26,8 +28,12 @@ const ContactInfo = () => {
               <h4 className="text-base font-rubikBold text-black text-center pt-3 pb-1">
                 Location
               </h4>
-              <p className="text-center text-[#6a7483]">House # 220, Road # 12</p>
-              <p className="text-center text-[#6a7483]">Mirpur-11, Dhaka-1216, Bangladesh</p>
+              <p className="text-center text-[#6a7483]">
+                House # 220, Road # 12
+              </p>
+              <p className="text-center text-[#6a7483]">
+                Mirpur-11, Dhaka-1216, Bangladesh
+              </p>
               <p> </p>
             </div>
             <div className="md:w-[33%] mb-8 md:mb-0">

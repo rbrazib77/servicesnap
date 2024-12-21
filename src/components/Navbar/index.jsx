@@ -42,9 +42,11 @@ function Navbar() {
         <div className="flex justify-between flex-row-reverse md:flex-row items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-rubikRegular text-white uppercase">
+           <Link to="/">
+           <h1 className="text-2xl font-rubikRegular text-white uppercase">
               Servicesnap
             </h1>
+           </Link>
           </div>
 
           {/* Desktop Menu */}

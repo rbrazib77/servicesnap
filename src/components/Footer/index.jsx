@@ -6,6 +6,7 @@ import ItemName from "../ItemName";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,9 +14,11 @@ const Footer = () => {
       <div className="px-6 mt-20">
         <div className="md:flex justify-between">
           <div className="">
-            <h3 className="text-primary  text-2xl font-rubikBold mb-2  md:mt-0 mt-2 uppercase">
+           <Link to="/">
+           <h3 className="text-primary  text-2xl font-rubikBold mb-2  md:mt-0 mt-2 uppercase cursor-pointer">
               Servicesnap
             </h3>
+           </Link>
             <p className="text-gray-500 w-[300px]">
               Servicesnap provides tailored business development solutions for
               SMEs in Bangladesh, focusing on growth strategies, market

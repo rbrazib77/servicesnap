@@ -17,7 +17,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 import PopularService from "./components/PopularService";
 import TeamDetails from "./pages/TeamDetails";
 import Team from "./components/Team";
-import Register from "./pages/register";
+import Register from "./pages/Register";
 
 
 const router = createBrowserRouter(
